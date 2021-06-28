@@ -1,0 +1,218 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+background-color: #d9ddeb;
+
+}	
+
+
+header{
+	background: #415e9b;
+	height: 82px;
+	border-bottom: 1px solid #133783;
+}
+
+.header-block{
+	width: 992px;
+	margin: 0 auto ;
+    padding-top:20px;
+    display: flex;
+   justify-content: space-between;
+}
+.fblogo{
+	width: 50%;
+    display: flex;
+}
+.facebook-login{
+	width: 50%;
+    
+    
+}
+.fblogo img{
+    width: 60%;
+    height: 36px;
+}
+.header-block label{
+    color: #fff;
+}
+.email {
+   display: inline-block;
+   vertical-align: top;
+}
+.email label{
+    padding-bottom: 10px;
+}
+.email input[type="text"]{
+    height: 20px;
+    width: 150px;
+    border: 1px solid #1d2a5b;
+
+}
+
+.password{
+   display: inline-block;
+   vertical-align: top;
+}
+.password input[type="password"]{
+    height: 20px;
+    width: 150px;
+    border: 1px solid #1d2a5b;
+}
+.password a {
+    color: #8fb1d8;
+    text-decoration: none;
+}
+.password label{
+    padding-bottom: 10px;
+}
+.login-button{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 20px;
+}
+.login-button input[type="submit"]{
+    background: #4267b2;
+    border: 1px solid #29487d;
+    border-radius: 2px;
+    color: #fff;
+    height: 20px;
+    width: 50px;
+     
+}
+
+
+.content-block {
+    width: 992px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.facebook-connect {
+    margin-top: 50px;
+    width: 45%;
+}
+
+.facebook-connect p{
+    color: #0e385f;
+    font-size: 25px;
+    font-weight: bold;
+}
+.facebook-connect img{
+    margin-top:  10px;
+    width: 100%;
+}
+
+.create-account {
+    width: 50%;
+}
+
+.content-container {
+background: linear-gradient(#fff, #d9ddeb);
+overflow: hidden;
+}
+
+.create-account h2 {
+    font-size: 40px;
+}
+.create-account.free{
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.account input[type="text"]{
+margin-bottom: 15px;
+border-radius: 5px;
+padding: 10px;
+font-size: 16px;
+border: 1px solid #bcd7d8;
+
+
+}
+
+.account input[type="password"]{
+margin-bottom: 15px;
+border-radius: 5px;
+padding: 10px;
+font-size: 16px;
+margin-left: 0px;
+border: 1px solid #bcd7d8;
+
+}
+
+.account.mobile, .acount .password {
+    width: 84% !important;
+}
+
+.account label {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.account a {
+    text-decoration: none;
+    color: #3677bc
+}
+
+.account input[type="radio"] {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.accounnt.ny clicking{
+    color: #77777a;
+}
+.account input[type="submit"]{
+    padding: 15px 20px;
+    background: linear-gradient(#95d67c, #65a953);
+    border: 1px solid#3b6e22;
+    border-radius: 5px;
+    font-size: 15px;
+    color: #fff;
+    margin-top:15px;
+    margin-bottom: 15px;
+}
+footer {
+    text-align: center;
+}
+.fb-footer{
+    margin: 30px 0;
+}
+.fb-footer ul{
+    margin: 0;
+    padding: 0;
+    
+}
+.fb-footer ul li {
+    list-style: none;
+    display: inline;
+    
+    
+    
+}
+
+    
+.fb-footer hr{
+    border: 0;
+    border-top: 1px solid #e5e5e5;
+    margin: 20px;
+   
+}
+.fb-footer ul li a{
+    text-decoration: none;
+    width: 6%;
+    line-height: 1.5;
+    font-size: 14px;
+    color: #365899;
+}
+.fb-footer ul li a:hover{
+    text-decoration:underline
+}
+
+
+
+
+
